@@ -1,0 +1,57 @@
+<div class="modal modal-registration" id="modalRegistration" style="display: none;">
+	<p class="modal-title">Зарегистируйтесь <br>на мероприятие</p>
+	<p class="modal-subtitle">Выберите формат мероприятия и заполните форму</p>
+	<form action="">
+		<div class="modal-form">
+			<ul class="modal-form-radio">
+				<li class="modal-form-radio__item">
+					<label class="modal-form-radio__label checked">
+						<span>Оффлайн-ивент</span>
+						<input type="radio" value="Оффлайн-ивент" name="registration-type" checked>
+					</label>
+				</li>
+				<li class="modal-form-radio__item">
+					<label class="modal-form-radio__label">
+						<span>Онлайн-трансляция</span>
+						<input type="radio" value="Онлайн-трансляция" name="registration-type">
+					</label>
+				</li>
+			</ul>
+			<div class="modal-form__row">
+				<div class="modal-form__col">
+					<input type="text" placeholder="Имя">
+				</div>
+				<div class="modal-form__col">
+					<input type="text" placeholder="Фамилия">
+				</div>
+				<div class="modal-form__col">
+					<input type="text" placeholder="Компания">
+				</div>
+				<div class="modal-form__col">
+					<input type="text" placeholder="Должность">
+				</div>
+				<div class="modal-form__col">
+					<input type="email" placeholder="Почта">
+				</div>
+				<div class="modal-form__col">
+					<input type="tel" placeholder="Телефон" required>
+				</div>
+			</div>
+			<div class="modal-form__desc">
+				<span>Нажимая кнопку “зарегистироваться” вы соглашаетесь с</span>
+				<a href="#">политикой обработки персональных данных.</a>
+			</div>
+			<div class="modal-form__submit">
+				<label class="btn main-btn">
+					<input type="submit" value="Зарегистироваться">
+					<span class="btn__title">Зарегистироваться</span>
+					<marquee class="btn__marquee" direction="left" behavior="scroll">
+						<span>Зарегистироваться</span>
+						<span>Зарегистироваться</span>
+						<span>Зарегистироваться</span>
+					</marquee>
+				</label>
+			</div>
+		</div>
+	</form>
+</div>
